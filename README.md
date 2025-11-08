@@ -22,7 +22,7 @@ It features a minimal and intuitive interface — just choose your music folder,
    - ⏸ **Pause**  
    - ⏮ / ⏭ **Previous / Next Track**
 
-4. **Volume & Progress**  
+4. **Progress**  
    - Use the **slider** to control playback progress.  
 
 5. **Navigation**  
