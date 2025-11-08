@@ -45,7 +45,7 @@ namespace AudioPlay
             InitializeComponent();
             Reloadfolder();
             Loadtolistv();
-            speaker = new WaveOutEvent();   //just create to avoid error
+            speaker = new WaveOutEvent();   //just create once to avoid error:
             speaker.PlaybackStopped += Speaker_PlaybackStopped; 
 
             timer = new DispatcherTimer();
@@ -349,5 +349,6 @@ namespace AudioPlay
     
         
     
+
 
 }
