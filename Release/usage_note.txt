@@ -1,0 +1,8 @@
+Hi there ! 
+This is fast manual to use the application:
+
+- Click in setting icon, choose the directory (folder) that contains your .mp3 files.
+- After selecting the folder, click the Save button and click the Reload button.
+- The app will scan that folder and load all the audio files into the list.
+- You can then play, pause, and navigate between tracks using the control buttons.
+- Make sure the folder you select actually exists and contains valid .mp3 files.
