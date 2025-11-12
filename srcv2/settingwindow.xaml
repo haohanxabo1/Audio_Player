@@ -1,0 +1,59 @@
+﻿<mah:MetroWindow x:Class="AudioPlay.settingwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AudioPlay"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+ xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="settingwindow" Height="300" Width="550"  Icon="/disc.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            
+            
+            
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Margin="10,30,10,10"
+                   Text="Audio Path:" 
+                   FontWeight="Bold"
+                   FontSize="16"
+                   />
+        <TextBox x:Name="audiopathbox"
+                 Grid.Row="1"
+                 Margin="10,10,10,10"
+                 Text="Pathxx:"
+                 FontSize="12"
+                 FontWeight="Bold"
+                 Style="{DynamicResource MahApps.Styles.TextBox}"
+              />
+
+        <Button Grid.Row="2" 
+                Name="browse"
+                Width="120"
+                Height="50"
+                FontWeight="Bold"
+                Style="{DynamicResource MahApps.Styles.Button.MetroWindow}"
+                Content="Browse" Click="browse_Click"
+               
+            ></Button>
+        <Button Grid.Row="3" 
+            Name="save"
+    Width="120"
+    Height="50"
+                FontWeight="Bold"
+    Content="Save" Click="save_Click"
+                Style="{DynamicResource MahApps.Styles.Button.MetroWindow}"
+           
+></Button>
+
+    </Grid>
+</mah:MetroWindow>
