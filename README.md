@@ -18,7 +18,7 @@ It features a minimal and intuitive interface — just choose your music folder,
 - **Drag & Drop Support** – You can now drag and drop:
   - **Folders:** Automatically loads all audio files from the dropped folder.  
   - **Audio Files:** Automatically moves them to the current playlist's folder.
-  ![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
+  ![sampleuse](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGZkdXM3dWw1aGM2aXM5OThqcWlqYjl1c29yeWdsb2Zpc285czZxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pcllySaHIljpMCB4SL/giphy.gif)
 
 ##  How to Use
 
