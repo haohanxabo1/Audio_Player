@@ -17,7 +17,8 @@ It features a minimal and intuitive interface — just choose your music folder,
 - **Persistent Audio Directory** – The app now saves your selected audio directory for future sessions.  
 - **Drag & Drop Support** – You can now drag and drop:
   - **Folders:** Automatically loads all audio files from the dropped folder.  
-  - **Audio Files:** Automatically moves them to the current playlist's folder.  
+  - **Audio Files:** Automatically moves them to the current playlist's folder.
+  ![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
 
 ##  How to Use
 
@@ -45,7 +46,9 @@ It features a minimal and intuitive interface — just choose your music folder,
 - Ensure the selected folder exists and contains valid **audio files**, such as:  `.mp3, .wav, .aiff, .wma, .aac, .flac, .alac, .ogg`.  
 - If nothing appears after reloading, double-check your folder path in **Settings**.
 
-
+## Requirements
+- **.NET 8.0 SDK or higher**  
+- **Windows OS** (WPF-based application)  
 
 ##  Developer Info
 - **Language:** C#  
